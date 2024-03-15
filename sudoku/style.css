@@ -1,0 +1,19 @@
+body {
+    background-color: green;
+}
+#gameBoard {
+    margin: 20px auto;
+    width: 270px;
+    height: 270px;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gameBoard div {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
